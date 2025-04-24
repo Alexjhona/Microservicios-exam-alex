@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: jag-registry-servidor
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://Alex:root@localhost:7070

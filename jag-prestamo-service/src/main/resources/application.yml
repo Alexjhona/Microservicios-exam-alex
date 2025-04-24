@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: jag-prestamo-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://Alex:root@localhost:7070
