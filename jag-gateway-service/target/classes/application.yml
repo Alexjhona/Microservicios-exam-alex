@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: jag-gateway-servicio
-  profiles:
-    active: development
-  config:
-    import: optional:configserver:http://Alex:root@localhost:7070
